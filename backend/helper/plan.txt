@@ -1,0 +1,9 @@
+the way the web app works is this:
+
+1) user selects language 1
+2) user selects language 2
+3) user speaks into the mic in the language 1
+4) speech text, lang1, and lang2 gets passed to translation app on python
+5) translation app receives the text from lang1 and translates it to lang2
+6) translation app passes translated text and lang2 to the text_to_speech app
+7) the text to speech app speaks the text

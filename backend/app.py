@@ -50,7 +50,7 @@ def handle_translation():
         mp3_output = translator(tmp_wav_path, outgoing_language)
 
         # Delete temporary files
-        # os.remove(tmp_webm_path)
+        os.remove(tmp_webm_path)
         os.remove(tmp_wav_path)
 
         # Return the audio as base64
